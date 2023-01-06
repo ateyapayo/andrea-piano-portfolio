@@ -162,7 +162,7 @@ section {
 }
 
 .menu-wrap .menu > div > div > ul > li:hover {
-  color: #FFCA3A;
+  color: #ffca3a;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
@@ -190,7 +190,7 @@ img {
 }
 
 .nav-container {
-  background-color: #013D74;
+  background-color: #013d74;
 }
 .nav-container a {
   color: white;
@@ -204,7 +204,7 @@ header {
 }
 header .logo {
   align-self: left;
-  color: #FFCA3A;
+  color: #ffca3a;
   font-weight: bold;
 }
 header ul {
@@ -217,13 +217,14 @@ header ul a {
   margin: 1em;
 }
 
-.social-header, .hero-design {
+.social-header,
+.hero-design {
   display: none;
 }
 
 /* HERO */
 .hero {
-  background-color: #004E96;
+  background-color: #004e96;
   color: white;
   display: grid;
   text-align: center;
@@ -235,7 +236,7 @@ header ul a {
   margin: 0 auto;
   width: 200px;
   font-weight: bold;
-  color: #99FFFF;
+  color: #99ffff;
 }
 .meet span {
   margin-top: 1em;
@@ -258,7 +259,7 @@ header ul a {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: #CBFFFF;
+  background-color: #cbffff;
   opacity: 50%;
   top: 0;
   left: 0;
@@ -268,7 +269,7 @@ header ul a {
 .subtitle {
   text-transform: uppercase;
   font-weight: bold;
-  color: #0D65CD;
+  color: #0d65cd;
   letter-spacing: 0.05em;
   word-spacing: 0.7em;
   font-size: 0.85em;
@@ -299,10 +300,12 @@ header ul a {
   text-align: justify;
 }
 .biography a {
-  color: #013D74;
+  color: #013d74;
   font-weight: bold;
 }
-.biography h1, .biography img, .biography p {
+.biography h1,
+.biography img,
+.biography p {
   margin: 0;
 }
 .biography img {
@@ -320,15 +323,12 @@ header ul a {
   padding-bottom: 2.5em;
   display: flex;
   flex-direction: column;
-  background-color: #CFDEEF;
+  background-color: #cfdeef;
 }
 .skills img {
   align-self: center;
   width: 50%;
   margin-bottom: 2.5em;
-}
-.skills .sass {
-  width: 39%;
 }
 .skills .figma {
   margin-top: 1.5em;
@@ -363,7 +363,7 @@ header ul a {
 
 /* PORTFOLIO */
 .portfolio {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   padding-bottom: 3.5em;
 }
 .portfolio h1 {
@@ -418,7 +418,7 @@ header ul a {
 
 /* FOOTER */
 footer {
-  background-color: #013D74;
+  background-color: #013d74;
 }
 footer .contact {
   padding: 2.9em;
@@ -439,7 +439,7 @@ footer .contact h1:hover {
   text-decoration: underline;
 }
 footer .contact span {
-  color: #FFCA3A;
+  color: #ffca3a;
 }
 footer .social-footer {
   display: flex;
@@ -455,12 +455,12 @@ footer .social-footer a {
   .container {
     width: 92.5%;
   }
-
   .skills img {
     width: 25%;
   }
-  .skills .sass {
-    width: 21%;
+  .skills .css {
+    width: 19.5%;
+    margin-bottom: 1.65em;
   }
   .skills .figma {
     width: 19%;
@@ -468,11 +468,13 @@ footer .social-footer a {
   .skills .typescript {
     width: 19%;
   }
-
+  .skills .nextjs {
+    margin-top: -0.5em;
+    margin-bottom: 2.6em;
+  }
   .skills img:hover {
     opacity: 73%;
   }
-
   .portfolio-container img:hover {
     transform: scale(1.3);
     transition: 750ms;
@@ -486,11 +488,9 @@ footer .social-footer a {
   section {
     padding: 4em 1.85em;
   }
-
   .menu-wrap {
     display: none;
   }
-
   header ul {
     display: flex;
     flex-direction: row;
@@ -502,11 +502,9 @@ footer .social-footer a {
     margin-left: 1.3em;
     margin-right: 1.3em;
   }
-
   .featured-desc {
     padding: 0;
   }
-
   .biography {
     margin-top: -0.5em;
     display: flex;
@@ -527,7 +525,6 @@ footer .social-footer a {
   .biography a {
     margin: 0;
   }
-
   .skills-logos {
     flex-direction: row;
     justify-content: space-around;
@@ -535,6 +532,10 @@ footer .social-footer a {
   .skills-logos img {
     width: 14%;
     margin-bottom: 2.5em;
+  }
+  .skills-logos .css {
+    width: 11.3%;
+    margin-bottom: 2.4em;
   }
   .skills-logos .figma {
     width: 8.3%;
@@ -562,7 +563,6 @@ footer .social-footer a {
   section {
     padding: 4em 1.8em;
   }
-
   header {
     flex-direction: row;
   }
@@ -577,18 +577,13 @@ footer .social-footer a {
     margin-left: 0.8em;
     margin-right: 0;
   }
-
-  .skills-logos .sass {
-    margin-left: -0.1em;
-  }
   .skills-logos .typescript {
     margin-right: 0.6em;
   }
-
-  .featured, .portfolio p {
+  .featured,
+.portfolio p {
     text-align: left;
   }
-
   .portfolio-container {
     display: grid;
     grid-template-columns: 45% auto;
@@ -598,7 +593,6 @@ footer .social-footer a {
     margin-left: 2em;
     width: 93%;
   }
-
   .portfolio-left {
     display: grid;
     place-content: center;
@@ -611,13 +605,11 @@ footer .social-footer a {
     background: unset;
   }
   .nav-container header {
-    background-color: #013D74;
+    background-color: #013d74;
   }
-
   .logo {
     padding-left: 2em;
   }
-
   .social-header {
     margin: 0 auto;
     width: 37%;
@@ -625,11 +617,9 @@ footer .social-footer a {
     justify-content: space-around;
     align-self: center;
   }
-
   section {
     padding: 4em;
   }
-
   .social-header {
     display: flex;
   }
@@ -640,22 +630,21 @@ footer .social-footer a {
     align-self: center;
   }
   .social-header .fa-facebook:hover {
-    color: #004E96;
+    color: #004e96;
     transition: 0.4s;
   }
   .social-header .fa-instagram:hover {
     color: transparent;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
     background-clip: text;
     -webkit-background-clip: text;
     transition: 0.4s;
   }
   .social-header .fa-linkedin:hover {
-    color: #004E96;
+    color: #004e96;
     transition: 0.4s;
   }
-
   .hero {
     display: grid;
     grid-template-columns: 66% auto;
@@ -663,7 +652,7 @@ footer .social-footer a {
     padding: 0;
   }
   .hero .content {
-    background: #004E96;
+    background: #004e96;
     padding: 6em 8em 6em 4em;
     text-align: left;
   }
@@ -671,21 +660,17 @@ footer .social-footer a {
     font-size: 3em;
     line-height: 1.2em;
   }
-
   .meet {
     margin: unset;
   }
-
   .hero-design {
     display: unset;
     margin-left: -50%;
     width: 100%;
   }
-
   .featured {
     padding-bottom: 3.2em;
   }
-
   .biography {
     margin: 0 auto;
     padding-left: 3.3em;
@@ -700,22 +685,16 @@ footer .social-footer a {
   .biography p {
     width: 93.5%;
   }
-
   .portfolio .img-zoom {
     margin-left: auto;
     max-width: 500px;
     float: right;
   }
-
   .inner {
     margin-top: 1em;
   }
-
   .skills-logos {
     width: 95%;
-  }
-  .skills-logos .sass {
-    margin-right: 0.85em;
   }
   .skills-logos .typescript {
     margin-left: 0.75em;
@@ -735,7 +714,8 @@ footer .social-footer a {
   .skills-logos .inner {
     margin-top: -4.5em;
   }
-  .skills-logos .biography, .skills-logos .skills {
+  .skills-logos .biography,
+.skills-logos .skills {
     padding: 10em;
   }
   .skills-logos .biography p {
@@ -744,7 +724,6 @@ footer .social-footer a {
   .skills-logos .skills-logos {
     width: 85%;
   }
-
   footer .social-footer a {
     margin: 0.15em 0.3em;
   }
@@ -753,37 +732,30 @@ footer .social-footer a {
   .container {
     margin-left: 2.5em;
   }
-
   .logo {
     padding-left: 6em;
   }
-
   section {
     padding-left: 8em;
   }
-
   .hero .content {
     padding-left: 8em;
   }
-
   .biography {
     width: 87%;
     padding-left: 5.7em;
   }
-
   .skills-logos {
     margin: 0 auto;
     width: 80%;
   }
-  .skills-logos .sass {
-    margin-right: 0.9em;
+  .skills-logos .css {
+    width: 11.5%;
   }
-
   .portfolio-container {
     margin-left: 0.1em;
     width: 95%;
   }
-
   .portfolio h1 {
     font-size: 2em;
     margin: -0.4em 2.2em 1.3em 0;
@@ -794,17 +766,14 @@ footer .social-footer a {
     width: auto;
     margin-left: 2.3em;
   }
-
   .portfolio-left {
     justify-content: left;
   }
-
   .skills-logos img {
     max-width: 150px;
   }
-
-  .skills-logos .sass {
-    max-width: 130px;
+  .skills-logos .css {
+    max-width: 120px;
   }
   .skills-logos .figma {
     max-width: 100px;
@@ -813,11 +782,9 @@ footer .social-footer a {
     max-width: 115px;
     margin-left: 1em;
   }
-
   .portfolio {
     padding-right: auto;
   }
-
   .portfolio-container {
     width: 97%;
   }
